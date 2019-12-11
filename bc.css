@@ -1,0 +1,17 @@
+h1{
+  color: chocolate;
+  font-size: 50px;
+}
+
+h2{color: darkolivegreen;}
+
+.sarcasm{color: goldenrod;}
+
+.real{text-decoration: line-through;}
+
+table{font-family: "ＭＳ 明朝";}
+
+a{color: blue;}
+a:visited{color: darkslateblue;}
+a:hover{color: darkgrey;}
+

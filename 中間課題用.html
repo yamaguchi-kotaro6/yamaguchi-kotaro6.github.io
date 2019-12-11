@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <title>11/27</title>
+</head>
+<!--<script type="text/javascript" src="中間課題練習.js"></script>-->
+<script type="text/javascript" src="https://morimorihoge.github.io/teu2019f/tweets.js"></script>
+
+<script>
+     function allclick(){
+    //alert("ro");
+    let answerHTML = "";
+
+    answerHTML = "<ul>";
+    let i = 0;
+    while(i < tweets.length){
+
+        answerHTML = answerHTML + "<li>" + "<img src='"+tweets[i].avatar+"' width='50px'>" + tweets[i].name + "<br>"+ tweets[i].message+ tweets[i].tweetedAt +" </li>";
+        i++;
+    }
+    answerHTML = answerHTML + "</ul>";
+
+    answer.innerHTML = answerHTML;
+    }
+
+     function sabu(){
+         //alert("ro");
+         let answerHTML = "";
+         answerHTML = "<ul>";
+         let i = 0;
+         while(i < tweets.length){
+             if (tweets[i].name === "三郎BOT"){
+                 answerHTML = answerHTML + "<li>" +"<img src='"+tweets[i].avatar+"'>" + tweets[i].name + "<br>"+ tweets[i].message+tweets[i].tweetedAt +"</li>";
+             }
+
+             i++;
+         }
+         answerHTML = answerHTML + "</ul>";
+
+         answer.innerHTML = answerHTML;
+     }
+
+     function ziro(){
+         //alert("ro");
+         let answerHTML = "";
+
+         answerHTML = "<ul>";
+         let i = 0;
+         while(i < tweets.length){
+             if (tweets[i].name === "次郎"){
+                 answerHTML = answerHTML + "<li>" +"<img src='"+tweets[i].avatar+"'>" + tweets[i].name + "<br>"+ tweets[i].message+tweets[i].tweetedAt +"</li>";
+             }
+
+             i++;
+         }
+         answerHTML = answerHTML + "</ul>";
+
+         answer.innerHTML = answerHTML;
+     }
+
+     function taro(){
+         //alert("ro");
+         let answerHTML = "";
+
+         answerHTML = "<ul>";
+         let i = 0;
+         while(i < tweets.length){
+             if (tweets[i].name === "太郎"){
+                 answerHTML = answerHTML + "<li>" + "<img src='"+tweets[i].avatar+"'>" +tweets[i].name + "<br>"+ tweets[i].message+tweets[i].tweetedAt +"</li>";
+             }
+
+             i++;
+         }
+         answerHTML = answerHTML + "</ul>";
+
+         answer.innerHTML = answerHTML;
+     }
+</script>
+
+<body>
+<p>
+  <button onclick="allclick()">ALL</button>
+  <button onclick="sabu()">三郎bot</button>
+  <button onclick="ziro()">次郎</button>
+  <button onclick="taro()">太郎</button>
+</p>
+
+<div id="answer"></div>
+
+<script>
+  allclick();
+</script>
+</body>
+</html>
