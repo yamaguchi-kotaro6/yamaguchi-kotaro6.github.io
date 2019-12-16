@@ -1,0 +1,54 @@
+/*Last Update:2019.12.16
+  Author:山口 鼓太郎
+  E-mail:M011831355@edu.teu.ac.jp */
+
+.subTitle{}
+
+.gNavi{
+  list-style-type: none;
+}
+
+.index,.info,.campaign,.recruit,.contact{
+  background-color: #bb6f05;
+  float: left;
+  padding: 30px;
+}
+
+h2{
+  color: darkolivegreen;
+  clear: left;
+}
+
+header,
+nav.gNavi,
+main{
+  margin: 0 auto;
+  width: 1170px;
+}
+
+.category{list-style-type: circle;}
+
+.sarcasm{color: goldenrod;}
+
+.real{text-decoration: line-through;}
+
+table{
+  font-family: "ＭＳ 明朝", serif;
+  border-collapse: collapse;
+  border: 3px solid #0c2033;
+}
+
+td{
+  border: 1px solid #0c2033;
+  padding: 8px;
+  background-color: #f9eabb;
+}
+
+th{
+  border: 1px solid;
+  background-color: #8ab8c2;
+}
+
+a{color: blue;}
+a:visited{color: darkslateblue;}
+a:hover{color: darkgrey;}
