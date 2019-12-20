@@ -4,14 +4,29 @@
 
 .subTitle{}
 
-.gNavi{
+.main-nav{
+  display: flex;
+  font-size: 1.25rem;
+  margin-top: 30px;
   list-style-type: none;
 }
 
-.index,.info,.campaign,.recruit,.contact{
-  background-color: #bb6f05;
-  float: left;
-  padding: 30px;
+.main-nav li{
+  margin-left: 30px;
+}
+
+.main-nav a{
+  text-decoration: none;
+  color: #0b0b0b;
+}
+
+.main-nav a:hover{
+  color: #f6f4ff;
+}
+
+.page-header{
+  display: flex;
+  justify-content: space-between;
 }
 
 h2{
@@ -19,11 +34,10 @@ h2{
   clear: left;
 }
 
-header,
-nav.gNavi,
-main{
+.wrapper{
   margin: 0 auto;
-  width: 1170px;
+  padding: 0 4%;
+  max-width: 1170px;
 }
 
 .category{list-style-type: circle;}
@@ -49,6 +63,9 @@ th{
   background-color: #8ab8c2;
 }
 
-a{color: blue;}
-a:visited{color: darkslateblue;}
-a:hover{color: darkgrey;}
+.bottomMenu{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
