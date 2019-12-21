@@ -1,4 +1,4 @@
-/*Last Update:2019.12.16
+/*Last Update:2019.12.21
   Author:山口 鼓太郎
   E-mail:M011831355@edu.teu.ac.jp */
 
@@ -27,6 +27,21 @@
 .page-header{
   display: flex;
   justify-content: space-between;
+}
+
+#home{
+  background-color: #0c2033;
+  /*background-image: url(sign.png);*/
+  background-repeat: no-repeat;
+  background-position: 100px;
+  min-height: 70vh;
+  background-size: contain;
+}
+
+.big-bg img{
+  width: 500px;
+  padding-left: 130px;
+  padding-top: 50px;
 }
 
 h2{
