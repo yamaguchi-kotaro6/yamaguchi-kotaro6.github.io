@@ -1,4 +1,4 @@
-/*Last Update:2019.12.21
+/*Last Update:2019.12.28
   Author:山口 鼓太郎
   E-mail:M011831355@edu.teu.ac.jp */
 
@@ -18,10 +18,12 @@
 .main-nav a{
   text-decoration: none;
   color: #0b0b0b;
+
 }
 
 .main-nav a:hover{
   color: #f6f4ff;
+  background-color: #6e582f;
 }
 
 .page-header{
@@ -29,13 +31,19 @@
   justify-content: space-between;
 }
 
+.purpose{
+  display: flex;
+  /*justify-content: space-between;*/
+}
+
 #home{
-  background-color: #0c2033;
+  background-color: #d6ce9d;
   /*background-image: url(sign.png);*/
   background-repeat: no-repeat;
   background-position: 100px;
   min-height: 70vh;
   background-size: contain;
+  width: 65%;
 }
 
 .big-bg img{
@@ -44,9 +52,40 @@
   margin-top: 50px;
 }
 
+.profile{
+  width: 20%;
+  margin-top: 50px;
+  margin-left: 8%;
+  padding: 10px;
+  /*background-color: #0A50FF;*/
+  position: relative;
+}
+
+.myAccount{
+  background-color: #668289;
+  border-radius: 20px;
+  width: 80%;
+  height: 30%;
+  padding: 10%;
+  text-align: center;
+  font-size: 2em;
+}
+
+.myAccount span{
+  font-size: 1rem;
+  border-top: 1px rgba(255, 255, 255, 0.5) solid;
+  padding-top: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
 h2{
   color: darkolivegreen;
   clear: left;
+}
+
+.suda{
+  width: 60px;
 }
 
 .wrapper{
