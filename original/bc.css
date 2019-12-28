@@ -79,6 +79,10 @@
   margin: 0 auto;
 }
 
+#slide{
+  list-style-type: none;
+}
+
 h2{
   color: darkolivegreen;
   clear: left;
