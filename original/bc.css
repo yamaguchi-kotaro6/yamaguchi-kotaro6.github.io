@@ -89,7 +89,16 @@ h2{
 }
 
 .suda{
-  width: 60px;
+  width: 40%;
+
+}
+
+.gen{
+  width: 40%;
+}
+
+.cn{
+  width: 40%;
 }
 
 .wrapper{
@@ -98,7 +107,23 @@ h2{
   max-width: 1170px;
 }
 
-.category{list-style-type: circle;}
+.find{
+  display: flex;
+  justify-content: center;
+}
+
+
+.category{
+  list-style-type: none;
+  display: flex;
+  background-color: #6d748d;
+  /*justify-content: center;*/
+}
+
+.category li{
+  margin-left: 175px;
+  background-color: #8c4d5a;
+}
 
 .sarcasm{color: goldenrod;}
 
