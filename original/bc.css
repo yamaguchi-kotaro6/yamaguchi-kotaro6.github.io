@@ -4,6 +4,10 @@
 
 .subTitle{}
 
+.page-header{
+  background-color: #a2a2a2;
+}
+
 .main-nav{
   display: flex;
   font-size: 1.25rem;
@@ -24,6 +28,7 @@
 .main-nav a:hover{
   color: #f6f4ff;
   background-color: #6e582f;
+  transition: color 0.5s ;
 }
 
 .page-header{
@@ -81,6 +86,11 @@
 
 #slide{
   list-style-type: none;
+  margin-left: 300px;
+}
+
+#slide img{
+  width: 50%;
 }
 
 h2{
@@ -88,18 +98,6 @@ h2{
   clear: left;
 }
 
-.suda{
-  width: 40%;
-
-}
-
-.gen{
-  width: 40%;
-}
-
-.cn{
-  width: 40%;
-}
 
 .wrapper{
   margin: 0 auto;
@@ -152,3 +150,45 @@ th{
   justify-content: center;
 }
 
+.found{
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+.prev-arrow{
+  left: -40px;
+  width: 0;
+  height: 0;
+  border-left: 0 solid transparent;
+  border-right: 15px solid #113463;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+.next-arrow{
+  right: -40px;
+  width: 0;
+  height: 0;
+  border-right: 0 solid transparent;
+  border-left: 15px solid #113463;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+
+.slide-arrow{
+  position: absolute;
+  top: 50%;
+  margin-top: -15px;
+}
+
+button{
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: 0;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
