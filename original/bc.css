@@ -22,13 +22,23 @@
 .main-nav a{
   text-decoration: none;
   color: #0b0b0b;
-
 }
 
 .main-nav a:hover{
   color: #f6f4ff;
   background-color: #6e582f;
-  transition: color 0.5s ;
+  transition: color 0.5s 0.8ms;
+}
+
+.toggle-link{
+
+}
+
+.toggle-box {
+  border: 1px solid #aaaaaa;
+  margin: 10px;
+  padding: 10px;
+  display: none;
 }
 
 .page-header{
@@ -84,13 +94,16 @@
   margin: 0 auto;
 }
 
-#slide{
+.grid{
   list-style-type: none;
-  margin-left: 300px;
+  text-align: center;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2, minmax(240px,1fr));
 }
 
-#slide img{
-  width: 50%;
+.grid img{
+  width: 70%;
 }
 
 h2{
@@ -98,18 +111,16 @@ h2{
   clear: left;
 }
 
-
 .wrapper{
   margin: 0 auto;
   padding: 0 4%;
   max-width: 1170px;
 }
 
-.find{
+.myFavorites{
   display: flex;
   justify-content: center;
 }
-
 
 .category{
   list-style-type: none;
@@ -119,7 +130,7 @@ h2{
 }
 
 .category li{
-  margin-left: 175px;
+  margin-left: 150px;
   background-color: #8c4d5a;
 }
 
@@ -156,39 +167,3 @@ th{
   margin-top: 2%;
 }
 
-.prev-arrow{
-  left: -40px;
-  width: 0;
-  height: 0;
-  border-left: 0 solid transparent;
-  border-right: 15px solid #113463;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-}
-.next-arrow{
-  right: -40px;
-  width: 0;
-  height: 0;
-  border-right: 0 solid transparent;
-  border-left: 15px solid #113463;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-}
-
-.slide-arrow{
-  position: absolute;
-  top: 50%;
-  margin-top: -15px;
-}
-
-button{
-  margin: 0;
-  padding: 0;
-  background: none;
-  border: none;
-  border-radius: 0;
-  outline: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-}
