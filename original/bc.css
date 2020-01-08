@@ -19,14 +19,28 @@
   margin-left: 30px;
 }
 
+.main-nav li.item:after{
+  content: '';
+  width: 0;
+  transition: all 1s ease;
+  border-bottom: 3px solid #000;
+  display: block;
+}
+
+.main-nav li.item:hover:after {
+  width: 100%;
+  border-bottom: 3px solid #000;
+}
+
 .main-nav a{
   text-decoration: none;
   color: #0b0b0b;
+  background-color: #b8934f;
 }
 
 .main-nav a:hover{
-  color: #f6f4ff;
-  background-color: #6e582f;
+  color: #ff2e34;
+  background-color: #a3cad2;
   transition: color 0.5s 0.8ms;
 }
 
@@ -106,6 +120,10 @@
   width: 70%;
 }
 
+.find{
+  text-align: center;
+}
+
 h2{
   color: darkolivegreen;
   clear: left;
@@ -166,4 +184,3 @@ th{
   justify-content: center;
   margin-top: 2%;
 }
-
