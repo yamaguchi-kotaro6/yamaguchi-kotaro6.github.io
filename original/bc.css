@@ -65,12 +65,13 @@
   /*justify-content: space-between;*/
 }
 
+
 #home{
   background-color: #d6ce9d;
   /*background-image: url(sign.png);*/
   background-repeat: no-repeat;
   background-position: 100px;
-  min-height: 70vh;
+  min-height: 100px;
   background-size: contain;
   width: 65%;
 }
@@ -79,6 +80,7 @@
   width: 500px;
   margin-left: 130px;
   margin-top: 50px;
+  /*min-height: 30px;*/
 }
 
 .profile{
@@ -142,14 +144,15 @@ h2{
 
 .category{
   list-style-type: none;
-  display: flex;
-  background-color: #6d748d;
-  /*justify-content: center;*/
+  /*display: flex;*/
+  /*justify-content: space-between;*/
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 
-.category li{
-  margin-left: 150px;
-  background-color: #8c4d5a;
+.category img{
+  width: 100px;
+  margin-left: 110px;
 }
 
 .sarcasm{color: goldenrod;}
