@@ -67,8 +67,8 @@ html{
 
 .toggle-box {
   border: 1px solid #aaaaaa;
-  margin: 10px;
-  padding: 10px;
+  margin: 0px;
+  padding: 0px;
   display: none;
 }
 
@@ -94,6 +94,10 @@ html{
   width: 65%;
 }
 
+.myFavorites{
+  margin-top: 10%;
+}
+
 .big-bg img{
   width: 500px;
   margin-left: 130px;
@@ -114,8 +118,12 @@ html{
   position: relative;
 }
 
+.night{
+  border-bottom: 1px rgb(134, 134, 134) dashed;
+}
+
 .myAccount{
-  background-color: #668289;
+  background-color: #bdd5ff;
   border-radius: 20px;
   width: 80%;
   height: 30%;
@@ -126,7 +134,7 @@ html{
 
 .myAccount span{
   font-size: 1rem;
-  border-top: 1px rgba(255, 255, 255, 0.5) solid;
+  border-top: 1px rgb(134, 134, 134) solid;
   padding-top: 10px;
   display: block;
   margin: 0 auto;
@@ -149,8 +157,26 @@ html{
   opacity: 0.75;
 }
 
+.list{
+  list-style-type: none;
+  text-align: center;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, minmax(240px,1fr));
+}
+
+.list img{
+  width: 80%;
+  height: 170px;
+}
+
+.list img:hover{
+  opacity: 0.75;
+}
+
 .find{
   text-align: center;
+  margin-top: 5%;
 }
 
 h2{
@@ -237,4 +263,15 @@ th{
 
 #return-top:hover{
   opacity: 0.6;
+}
+
+.copyright{
+  font-size: 20px;
+  text-align: center;
+  margin: 5%;
+  color: white;
+}
+
+footer{
+  background-color: #0c2033;
 }
